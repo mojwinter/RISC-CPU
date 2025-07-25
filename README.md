@@ -1,5 +1,3 @@
-> **Note:** Project was completed in ELEC 374, April 2024.
-
 # Abstract
 
 This project presents the development of a Reduced Instruction Set Computing (RISC) CPU using Verilog, aiming to progressively expand its capabilities from basic arithmetic operations to encompass more intricate instructions and processor elements. Utilizing Intel Quartus Prime for design, the project progresses through various phases focusing on datapath construction, memory subsystem integration, logic implementation for instruction selection and encoding, conditional branching, and the control unit. Challenges encountered during hardware execution proved difficult for the team and eventually led to incompletion of the final part of the last phase of the project. However, despite this obstacle, significant milestones were achieved, and the project was a great educational experience for all team members. Future improvements will focus on addressing hardware execution challenges and optimizing performance metrics, to hopefully eventually get the system running on an FPGA.
@@ -182,7 +180,9 @@ In the future, the group would like to get the RISC computer executing instructi
 
 Additionally, the team would investigate optimizing some key instructions and streamline the execution of frequently used operations to improve the overall efficiency and performance of the processor. In a real-world implementation, energy efficiency and low heat dissipation are crucial in modern CPUs and working to optimize instructions would improve our system in those departments, to mimic how a real computer architecture team would look to improve their processor. Plus, as the CPU’s capabilities grow with development, the scalability will be important and optimizing basic instructions, especially those accessed by other instructions, will have a significant impact on the processor’s performance.
 
-Credit: Mitchell Winter, Logan White, Zeph Van Iterson 
+
+> **Note:** Project was completed in ELEC 374, April 2024. <br>
+**Credit:** Mitchell Winter, Logan White, Zeph Van Iterson
 
 # Appendix
 
